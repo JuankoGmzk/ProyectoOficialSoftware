@@ -39,7 +39,7 @@
 
 
     <!-- Sidebar - Brand -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
       <div class="sidebar-brand-icon rotate-n-15">
         <i class="fas fa-laugh-wink"></i>
       </div>
@@ -51,7 +51,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-      <a class="nav-link" href="Perfil.html">
+      <a class="nav-link" href="Perfil.php">
         <i class="fas fa-fw fa-sign"></i>
         <span>Perfil</span></a>
     </li>
@@ -65,7 +65,7 @@
 
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
-      <a class="nav-link collapsed" href="Clases.html" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+      <a class="nav-link collapsed" href="Clases.php" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
         <i class="fas fa-fw fa-chalkboard-teacher"></i>
         <span>Clases</span>
       </a>
@@ -88,7 +88,7 @@
 
     <!-- Nav Item - Charts -->
     <li class="nav-item">
-      <a class="nav-link" href="login.html">
+      <a class="nav-link" href="login.php">
         <i class="fas fa-fw fa-sign-out-alt"></i>
         <span>Cerrar Sesión</span></a>
     </li>
@@ -227,7 +227,7 @@
 
 
                 <div class="clearfix"></div>
-                <a class="btn btn-primary btn-xl js-scroll-trigger" href="Clases.html">Valorar la Clase</a>
+                <a class="btn btn-primary btn-xl js-scroll-trigger" href="Clases.php">Valorar la Clase</a>
                 <ul class="pagination pull-right">
                   <li class="disabled"><a href="#"><span class="glyphicon glyphicon-chevron-left"></span></a></li>
                   <li class="active"><a href="#">1</a></li>
@@ -352,7 +352,7 @@
       <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
       <div class="modal-footer">
         <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-        <a class="btn btn-primary" href="login.html">Logout</a>
+        <a class="btn btn-primary" href="login.php">Logout</a>
       </div>
     </div>
   </div>

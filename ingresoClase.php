@@ -5,6 +5,7 @@
 <link href="css/css.css" rel="stylesheet" />
 <!------ Include the above in your HEAD tag ---------->
 
+
 <title>Skill Class Login</title>
 
 <div class="wrapper fadeInDown">
@@ -18,18 +19,13 @@
 
         <!-- Login Form -->
         <form>
-            <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-            <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-            <input type="button" class="fadeIn fourth" value="Log In" onclick="location.href = 'clases.html';">
+
+            <input type="text" id="password" class="fadeIn third" name="login" placeholder="Codigo de Clase">
+            <input type="button" class="fadeIn fourth" value="Ingresar" onclick="location.href = 'valorarClase.html';">
 
 
 
         </form>
-
-        <!-- Remind Passowrd -->
-        <div id="formFooter">
-            <a class="underlineHover" href="#">Forgot Password?</a>
-        </div>
 
     </div>
 </div>

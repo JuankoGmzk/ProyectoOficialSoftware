@@ -24,7 +24,11 @@
 </head>
 
 
-<body id="page-top-top">
+<body id="page-top">
+
+
+
+
 
 <!-- Page Wrapper -->
 <div id="wrapper">
@@ -47,7 +51,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-      <a class="nav-link" href="Perfil.html">
+      <a class="nav-link" href="Perfil.php">
         <i class="fas fa-fw fa-sign"></i>
         <span>Perfil</span></a>
     </li>
@@ -61,13 +65,14 @@
 
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
-      <a class="nav-link collapsed" href="Clases.html" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+      <a class="nav-link collapsed" href="Clases.php" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
         <i class="fas fa-fw fa-chalkboard-teacher"></i>
         <span>Clases</span>
       </a>
       <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
           <h6 class="collapse-header">Clases:</h6>
+
         </div>
       </div>
     </li>
@@ -81,10 +86,9 @@
 
 
 
-
     <!-- Nav Item - Charts -->
     <li class="nav-item">
-      <a class="nav-link" href="login.html">
+      <a class="nav-link" href="login.php">
         <i class="fas fa-fw fa-sign-out-alt"></i>
         <span>Cerrar Sesión</span></a>
     </li>
@@ -117,117 +121,47 @@
       <div class="container-fluid">
 
         <div class="d-sm-flex align-items-center justify-content-between mb-4">
-          <h1 class="h3 mb-0 text-gray-800"><Clases></Clases></h1><!-- Prte de arriba del navar-->
+          <h1 class="h3 mb-0 text-gray-800">Perfil</h1>
 
         </div>
 
 
 
 
-        <!--Donde va mi codigo Donde va mi codigo Donde va mi codigo Donde va mi codigo Donde va mi codigo Donde va mi codigo -->
+        <!--Donde va mi codigo -->
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <!------ Includes the above in your HEAD tag ---------->
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="well well-sm">
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                    <img src="assets/img/portfolio/thumbnails/Nosotros/juanko_perfil.png" alt="" class="img-rounded img-responsive" />
+                  </div>
+                  <div class="col-sm-6 col-md-8">
+                    <h4>
+                      Juan Pablo Bernal Bernal</h4>
+                    <small><cite title="San Francisco, USA">Bogotá <i class="glyphicon glyphicon-map-marker">
+                    </i></cite></small>
+                    <p>
+                      <i class="glyphicon glyphicon-envelope"></i> Jubernal11@poligran.edu.co
+                      <br />
+                      <i class="glyphicon glyphicon-envelope"></i> 1810011176
+                      <br />
+                      <i class="glyphicon glyphicon-globe"></i><a href="http://www.jquery2dotnet.com"> www.poligra.edu.co</a>
+                      <br />
+                      <i class="glyphicon glyphicon-gift"></i> Mayo 03 2001</p>
+                    <!-- Split button -->
+                    <div class="btn-group">
+                      <a class="btn btn-primary btn-xl js-scroll-trigger" href="Clases.html">Clases</a>
 
 
-        <div class="row">
-
-          <!-- Area Chart -->
-          <div class="col-xl-8 col-lg-7">
-            <div class="card shadow mb-4">
-              <!-- Card Header - Dropdown -->
-              <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">Clases en Proceso</h6>
-
-              </div>
-
-              <!-- Card Body -->
-              <div class="card-body">
-
-                <u>
-
-                  <li>Ingenieria de Software - MAHECHA NIETO ISABEL ANDREA<br>
-                    S201-4829022B <br>
-                    Hora: 6:40 P:M - 9:50 P.M
-                  </li>
-                  <li>Calcuulo II - BALAQUERA ALBARRACIN RAUL<br>
-                    S201-4829022B <br>
-                    Hora: 6:40 P:M - 9:50 P.M
-                  </li>
-                  <li>Fisica II - CABEZA IVAN <br>
-                    S201-4829022B <br>
-                    Hora: 6:40 P:M - 9:50 P.M
-                  </li>
-                  <li>Elementos Teoria de la computación - PEDRAZA BONILLA VICTOR AUGUSTO<br>
-                    S201-4829022B <br>
-                    Hora: 6:40 P:M - 9:50 P.M
-                  </li>
-                  <li>Metodos Numericos - CASTELLANOS CARO RODRIGO<br>
-                    S201-4829022B <br>
-                    Hora: 6:40 P:M - 9:50 P.M
-                  <br><br>
-                  </li>
-
-                </u>
-
-                <a class="btn btn-primary btn-xl js-scroll-trigger" href="ingresoClase.html">Ingresar</a>
-
-              </div>
-            </div>
-          </div>
-
-          <!-- Pie Chart -->
-          <div class="col-xl-4 col-lg-5">
-            <div class="card shadow mb-4">
-              <!-- Card Header - Dropdown -->
-              <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">Clases del día</h6>
-                <div class="dropdown no-arrow">
-                  <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                  </a>
-
-
-                </div>
-              </div>
-
-              <!-- Card Body -->
-
-              <div class="card-body">
-
-
-                  <u>
-                    <li>Ingenieria de Software <br>
-                      S201-4829022B <br>
-                      Hora: 6:40 P:M - 9:50 P.M
-                    </li>
-                    <li>Calcuulo II <br>
-                      S201-4829022B <br>
-                      Hora: 6:40 P:M - 9:50 P.M
-                    </li>
-                    <li>Fisica II <br>
-                      S201-4829022B <br>
-                      Hora: 6:40 P:M - 9:50 P.M
-                    </li>
-                    <li>Elementos Teoria de la computación <br>
-                      S201-4829022B <br>
-                      Hora: 6:40 P:M - 9:50 P.M
-                    </li>
-                    <li>Metodos Numericos <br>
-                      S201-4829022B <br>
-                      Hora: 6:40 P:M - 9:50 P.M
-                    </li>
-
-
-                  </u>
-
-                <div class="mt-4 text-center small">
-                    <span class="mr-2">
-                      <i class="fas fa-circle text-primary"></i> Espera
-                    </span>
-                  <span class="mr-2">
-                      <i class="fas fa-circle text-success"></i> Proceso
-                    </span>
-                  <span class="mr-2">
-                      <i class="fas fa-circle text-info"></i> -
-                    </span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -240,7 +174,7 @@
     <footer class="sticky-footer bg-white">
       <div class="container my-auto">
         <div class="copyright text-center my-auto">
-          <span>Copyright &copy;SkillClass 2020</span>
+          <span>Copyright &copy; SkillClass 2020</span>
         </div>
       </div>
     </footer>
@@ -253,7 +187,7 @@
 <!-- End of Page Wrapper -->
 
 <!-- Scroll to Top Button-->
-<a class="scroll-to-top rounded" href="#page-top-top">
+<a class="scroll-to-top rounded" href="#page-top">
   <i class="fas fa-angle-up"></i>
 </a>
 

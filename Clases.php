@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="icon" type="image/x-icon" href="assets/img/SkillClass.png" />
-<script type="js/login.js">
-
-</script>
 <head>
 
   <meta charset="utf-8">
@@ -47,7 +44,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-      <a class="nav-link" href="Perfil.html">
+      <a class="nav-link" href="Perfil.php">
         <i class="fas fa-fw fa-sign"></i>
         <span>Perfil</span></a>
     </li>
@@ -135,9 +132,6 @@
               <!-- Card Header - Dropdown -->
               <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                 <h6 class="m-0 font-weight-bold text-primary">Clases en Proceso</h6>
-                <button type="button" id = "getmaterias" name="button">
-                Consultar
-                </button>
 
               </div>
 

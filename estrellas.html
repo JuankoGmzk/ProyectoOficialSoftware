@@ -1,0 +1,170 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="icon" type="image/x-icon" href="assets/img/SkillClass.png" />
+<link href="css/css.css" rel="stylesheet" />
+<!------ Include the above in your HEAD tag ---------->
+
+<title>Skill Class Estrellas</title>
+
+
+
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+        <!-- Code -->
+
+        <style>
+
+            #form {
+                width: 250px;
+                margin: 0 auto;
+                height: 50px;
+            }
+
+            #form p {
+                text-align: center;
+            }
+
+            #form label {
+                font-size: 20px;
+            }
+
+            input[type="radio"] {
+                display: none;
+            }
+
+            label {
+                color: grey;
+            }
+
+            .clasificacion {
+                direction: rtl;
+                unicode-bidi: bidi-override;
+            }
+
+            label:hover,
+            label:hover ~ label {
+                color: orange;
+            }
+
+            input[type="radio"]:checked ~ label {
+                color: orange;
+            }
+        </style>
+
+        <div class="col-md-12">
+            <h4>Califica tu clase, bajo estos criterios</h4>
+            <div class="table-responsive">
+
+
+                <table id="mytable" class="table table-bordred table-striped">
+
+                    <thead>
+
+                    <th>Criterio</th>
+
+                    <th>             Calificacion</th>
+                    </thead>
+                    <tbody>
+                    <!--  Tabla-->
+                    <tr>
+                        <td>Fue responsable</td>
+                        <td><form>
+                            <p class="clasificacion">
+                                <input id="radio1" type="radio" name="estrellas" value="5"><!--
+        --><label for="radio1">&#9733;</label><!--
+        --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+        --><label for="radio2">&#9733;</label><!--
+        --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+        --><label for="radio3">&#9733;</label><!--
+        --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+        --><label for="radio4">&#9733;</label><!--
+        --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+        --><label for="radio5">&#9733;</label>
+                            </p>
+                        </form>
+                        </td>
+                    </tr>
+                    <!--Final de Tabla-->
+                    <!--  Tabla-->
+                    <tr>
+                        <td>Llego Temprano a Clase</td>
+                        <td><form>
+                            <p class="clasificacion">
+                                <input id="Aradio1" type="radio" name="estrellas" value="5"><!--
+        --><label for="Aradio1">&#9733;</label><!--
+        --><input id="Aradio2" type="radio" name="estrellas" value="4"><!--
+        --><label for="Aradio2">&#9733;</label><!--
+        --><input id="Aradio3" type="radio" name="estrellas" value="3"><!--
+        --><label for="Aradio3">&#9733;</label><!--
+        --><input id="Aradio4" type="radio" name="estrellas" value="2"><!--
+        --><label for="Aradio4">&#9733;</label><!--
+        --><input id="Aradio5" type="radio" name="estrellas" value="1"><!--
+        --><label for="Aradio5">&#9733;</label>
+                            </p>
+                        </form>
+                        </td>
+                    </tr>
+                    <!--Final de Tabla-->
+                    <!--  Tabla-->
+                    <tr>
+                        <td>Utilizo Herramientas Teconologicas</td>
+                        <td><form>
+                            <p class="clasificacion">
+                                <input id="Bradio1" type="radio" name="estrellas" value="5"><!--
+        --><label for="Bradio1">&#9733;</label><!--
+        --><input id="Bradio2" type="radio" name="estrellas" value="4"><!--
+        --><label for="Bradio2">&#9733;</label><!--
+        --><input id="Bradio3" type="radio" name="estrellas" value="3"><!--
+        --><label for="Bradio3">&#9733;</label><!--
+        --><input id="Bradio4" type="radio" name="estrellas" value="2"><!--
+        --><label for="Bradio4">&#9733;</label><!--
+        --><input id="Bradio5" type="radio" name="estrellas" value="1"><!--
+        --><label for="Bradio5">&#9733;</label>
+                            </p>
+                        </form>
+                        </td>
+                    </tr>
+                    <!--Final de Tabla-->
+                    <!--  Tabla-->
+                    <tr>
+                        <td>Hizo preguntas a su Profesor, y fueron respondidas satisfactoriamente</td>
+                        <td><form>
+                            <p class="clasificacion">
+                                <input id="Cradio1" type="radio" name="estrellas" value="5"><!--
+        --><label for="Cradio1">&#9733;</label><!--
+        --><input id="Cradio2" type="radio" name="estrellas" value="4"><!--
+        --><label for="Cradio2">&#9733;</label><!--
+        --><input id="Cradio3" type="radio" name="estrellas" value="3"><!--
+        --><label for="Cradio3">&#9733;</label><!--
+        --><input id="Cradio4" type="radio" name="estrellas" value="2"><!--
+        --><label for="Cradio4">&#9733;</label><!--
+        --><input id="Cradio5" type="radio" name="estrellas" value="1"><!--
+        --><label for="Cradio5">&#9733;</label>
+                           </p>
+                        </form>
+                        </td>
+                    </tr>
+                    <!--Final de Tabla-->
+                    </tbody>
+
+                </table>
+
+
+
+
+
+            </div>
+
+        </div>
+
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="Clases.html">Enviar y Volver a Clases</a>
+
+
+        <!-- Code -->
+    </div>
+
+
+</div>
+
+
